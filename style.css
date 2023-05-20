@@ -1,0 +1,56 @@
+.MbogaGo {
+
+    margin-left: -10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times;
+    color: rgb(1, 24, 1);
+    position: static;
+    padding: 20%;
+  
+}
+.MbogaGo p{
+margin-bottom: -70px;
+/* padding-top: 0%; */
+}
+.team{
+    position: fixed;
+}
+.three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.landpage {
+    background-image: url(back.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .about {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .MbogaGo {
+        margin-top: 10%;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .mboga {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    .heading1 {
+        font-size: 40px;
+    }
+    .MbogaGo {
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .mboga {
+        height: 150px;
+    }
+}
